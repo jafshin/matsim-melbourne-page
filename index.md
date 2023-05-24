@@ -3,30 +3,52 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+## What is AToM​
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+AToM is a city-scale multi-modal transport simulation, modelling a full day in the transportation system of Melbourne for understanding intended and unintended consequences of a change in the environment on individuals’ travel behaviour.
+AToM is an open-source simulation model that to represent mobility on a typical mid-weekday in Melbourne.
 
-More specifically, the created site:
+AToM includes transportation by car, public transport, cycling, and walking and models travel behaviours at an individual traveller and road segment level. Using the baseline mobility of Melbourne captured in AToM, it is possible to examine impacts of “what-if” built environment interventions on travel behaviour.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+Watch a video of the daily activity distribution of a 10% sample of Melbourne's population from AToM:
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+[![Activity distribution](https://i9.ytimg.com/vi_webp/HoKHLTVHwWE/mqdefault.webp?v=646e03a4&sqp=CMiGuKMG&rs=AOn4CLBM6RfNGgjcF2a_9ya11qIt-66bUw)](https://www.youtube.com/watch?v=HoKHLTVHwWE)
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
 
-To get started with creating a site, just click "[use this template]"!
+## Why use AToM
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+- AToM creates a realistic representation of the transportation sytem by creating the traffic demand based on individuals’ activities throughout the day;
+- AToM is multi-modal and captures the impact of changes in one mode on mode choice and route choice of all four main modes of travel;
+- AToM is open-source to maximise the clarify of model assumptions and processes and to make future collaborations more effective;
+- Using AToM it is possible to includes individual’s heterogenous behaviours in their mode and route choice;
+- AToM is developed by a multi-disciplinary team of experts in transport modelling, AI, GIS, and public health and built-environment.
 
-----
+## Who we are
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+The core AToM development team includes:
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+- [Dr Afshin Jafari](https://www.rmit.edu.au/contact/staff-contacts/academic-staff/j/jafari-dr-afshin), Travel behaviour modeller and data scientist, Centre for Urban Research, RMIT University;
+- [Dr Dhirendra Singh](https://people.csiro.au/S/D/dhirendra-singh), Computer Scientist, Data61, CSIRO; School of Computing Technologies, RMIT University;
+- [Dr Alan Both](https://cur.org.au/people/dr-alan-both/), Geo-spatial data scientist and transport modeller, Centre for Urban Research, RMIT University;
+- [Ms Mahsa Abdollahyar](https://cur.org.au/people/mahsa-abdollahyar/), Computer scientist and agent-based modeller, School of Computing Technologies, RMIT University;
+
+## Selected publications
+
+- Jafari, A., Both, A., Singh, D., Gunn, L., & Giles-Corti, B. (2022). Building the road network for city-scale active transport simulation models. Simulation Modelling Practice and Theory, 114, 102398. 
+- Both, A., Singh, D., Jafari, A., Giles-Corti, B., & Gunn, L. (2021). An Activity-Based Model of Transport Demand for Greater Melbourne. arXiv preprint arXiv:2111.10061. 
+- Jafari, A., Singh, D., Both, A., Abdollahyar, M., Gunn, L., Pemberton, S., & Giles-Corti, B. (2021). Activity-based and agent-based Transport model of Melbourne (AToM): an open multi-modal transport simulation model for Greater Melbourne. arXiv preprint arXiv:2112.12071. 
+
+## Partner with us​
+
+We are now open to partnership with government and nongovernmental agencies to undertake collaborative and applied research for further developing the model and for using it to inform policy and practice. If would like to discuss a research partnership please email please email Dr Afshin Jafari at afshin.jafari@rmit.edu.au ​
+
+## Acknlowedgements
+
+AToM benefited from contributions of experts and organisations from different field, including (but not limited to):
+- Prof Billie  Giles-Corti, RMIT University;
+- Dr Lucy Gunn, RMIT University;
+- Mr Steve Pemberton, RMIT University;
+- Dr Jonathan Arundel, RMIT Univesrity;
+- Infrastructure Victoria;
+- Department of Transport;
+- Institute for Sensible Transport;
